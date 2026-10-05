@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+work/
+runtime/
+outputs/
+frontend/node_modules/
+frontend/dist/
+*.egg-info/
+.DS_Store
+*.db*
+*.log
+.env*
+.chart-data-*/
+*.tsbuildinfo
+
+# Never publish local credentials or private assessment inputs.
+.github-publication/
+node_modules/
+*.pem
+*.key
+.env
+.auth/

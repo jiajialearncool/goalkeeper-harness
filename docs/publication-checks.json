@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-05",
+  "python_tests": {
+    "passed": 213,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 14.7,
+    "warnings": [
+      "Existing Starlette/httpx deprecation warning."
+    ]
+  },
+  "python_ruff": "passed",
+  "frontend_eslint": "passed",
+  "frontend_typecheck_build": "passed",
+  "real_model_calls": 0,
+  "dependencies": "Used existing locked dependency installations; dependency symlinks removed before staging.",
+  "secret_personal_path_scan": {
+    "passed": true,
+    "files": 86,
+    "symlinks_in_public_files": 0,
+    "scope": "Candidate regular files, not ignored runtime/private files. Pattern scan plus manual scope review; not a proof of no possible secret."
+  },
+  "original_project_changed": false,
+  "core_policy_changed": false
+}

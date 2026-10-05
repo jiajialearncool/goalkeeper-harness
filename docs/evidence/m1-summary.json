@@ -1,0 +1,93 @@
+{
+  "purpose": "Sanitized diagnostics; no task text, private graders, identifiers, accounts or original messages.",
+  "latest": {
+    "model": "gpt-6.1-sol",
+    "effort": "xhigh",
+    "execution_phase": "budget_exhausted",
+    "active_seconds": 1323.331106623984,
+    "tokens": 1022929,
+    "usage_complete": false,
+    "failure_origin": "budget",
+    "artifact_tests_passed": 15,
+    "delivered": false,
+    "scored_success": false
+  },
+  "first_global_attempt": {
+    "model": "gpt-6.1-sol",
+    "effort": "xhigh",
+    "execution_phase": "budget_exhausted",
+    "active_seconds": 1385.28470787502,
+    "tokens": 1003223,
+    "usage_complete": false,
+    "failure_origin": "budget",
+    "artifact_tests_passed": 15,
+    "delivered": false,
+    "scored_success": false
+  },
+  "previous_focused_attempt": {
+    "model": "gpt-6.1-sol",
+    "effort": "xhigh",
+    "execution_phase": "budget_exhausted",
+    "active_seconds": 1800.027595249965,
+    "tokens": 608199,
+    "usage_complete": false,
+    "failure_origin": "budget",
+    "artifact_tests_passed": 15,
+    "delivered": false,
+    "scored_success": false
+  },
+  "latest_roles": {
+    "main": {
+      "calls": 32,
+      "seconds": 1015.9690330000303,
+      "input": 634738,
+      "output": 25939,
+      "cached_input": 0,
+      "unknown_calls": 0
+    },
+    "Reviewer": {
+      "calls": 22,
+      "seconds": 277.64642504096264,
+      "input": 357861,
+      "output": 4391,
+      "cached_input": 0,
+      "unknown_calls": 1
+    }
+  },
+  "latest_file_reads": {
+    "requests": 32,
+    "deduplicated": 0,
+    "body_returns": 32,
+    "repeated_identical_bodies": 5
+  },
+  "latest_reviewer_tools": {
+    "run_command": 7,
+    "read_tool_output": 1,
+    "read_file": 32,
+    "read_source": 12
+  },
+  "latest_reviewer_forced_reads": {
+    "read_file": 22,
+    "read_source": 3
+  },
+  "latest_summary_calls": 0,
+  "latest_internal_segment_wait_seconds": 30.009171962738037,
+  "historical_codex": {
+    "model": "gpt-6.1-sol",
+    "effort": "xhigh",
+    "active_seconds": 809.2134730000107,
+    "tokens": 302163,
+    "usage_complete": true
+  },
+  "historical_codex_delivered": true,
+  "two_global_attempts": {
+    "tokens_observed": 2026152,
+    "active_seconds": 2708.615814499004
+  },
+  "limitations": [
+    "Incomplete usage values are lower bounds.",
+    "No simultaneous Codex rerun.",
+    "Review gates differed in older records.",
+    "Token-stop time is not successful delivery time."
+  ]
+}
